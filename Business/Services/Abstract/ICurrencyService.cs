@@ -10,9 +10,11 @@ namespace Business.Services.Abstract
 {
     public interface ICurrencyService
     {
-        public Result<Currency> GetCurrenciesByCode(string code);
-        public Result<List<Currency>> GetAllCurrencyBetweenTwoDate(DateTime dateStart,DateTime dateEnd);
-        public Result<List<Currency>> GetCurrenciesBetweenTwoDate(string currencyCode,DateTime dateStart,DateTime dateEnd);
+
+        //validation => FleuntValidation
+        public Result<Currency> GetCurrenciesByCode(string currencyCode);
+        public Result<List<Currency>> GetCurrenciesBetweenDates(DateTime dateStart,DateTime dateEnd);
+        public Result<List<Currency>> GetCurrenciesByCodeAndBetweenDates(string currencyCode,DateTime dateStart,DateTime dateEnd);
 
     }
 }

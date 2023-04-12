@@ -16,7 +16,7 @@ namespace DataAccess.Services.Concrete
 {
     public class DpCurrencyDal : ICurrencyDal
     {
-        public Result<List<Currency>> GetAllCurrencyBetweenTwoDate(DateTime dateStart, DateTime dateEnd)
+        public Result<List<Currency>> GetCurrenciesBetweenDates(DateTime dateStart, DateTime dateEnd)
         {
             try
             {
@@ -42,16 +42,12 @@ namespace DataAccess.Services.Concrete
 
                     connection.Close();
 
-                    return new Result<List<Currency>>(data: currencies.ToList(),
-                                                      message: "İki tarih arasındaki kur değerleri başarıyla getirildi.",
-                                                      success: true);
+                    return new Result<List<Currency>>(data:currencies.ToList(), message: "İki tarih arasındaki kur değerleri başarıyla getirildi.",success: true);
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return new Result<List<Currency>>(data: null,
-                                                  message: $"Beklenmedik bir hata oluştu. \n Detay: {e.Message}",
-                                                  success: false);
+                return new Result<List<Currency>>(data: null,message: $"Beklenmedik bir hata oluştu.{Environment.NewLine}Detay: {ex.Message}",success: false);
             }
         }
 
@@ -62,30 +58,24 @@ namespace DataAccess.Services.Concrete
                 using (var connection = new SqlConnection(ConnectionString.connectionString))
                 {
                     connection.Open();
-
-                    var currency = connection.QueryFirst<Currency>(Query.QUERY_GET_CURRENCIES_BY_CODE,
-                                                                   param: new { currencyCode = new DbString { Value = code.ToString().Trim() } });
+                    var currency = connection.QueryFirst<Currency>(Query.QUERY_GET_CURRENCIES_BY_CODE,param: new { currencyCode = new DbString{ Value = code.ToString().Trim()}});
                     connection.Close();
 
-                    return new Result<Currency>(
-                                                data: currency,message: "Kur değeri başarıyla getirildi.",success: true);
+                    return new Result<Currency>(data: currency,message: "Kur değeri başarıyla getirildi.",success: true);
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return new Result<Currency>(
-                                            data: null,message: $"Beklenmedik bir hata oluştu. \n Detay: {e.Message}",success: false);
+                return new Result<Currency>(data: null,message: $"Beklenmedik bir hata oluştu.{Environment.NewLine}Detay: {ex.Message}",success: false);
             }
         }
 
-        public Result<List<Currency>> GetCurrenciesBetweenTwoDate(string currencyCode, DateTime dateStart, DateTime dateEnd)
+        public Result<List<Currency>> GetCurrenciesByCodeAndBetweenDates(string currencyCode, DateTime dateStart, DateTime dateEnd)
         {
             try
             {
-
                 using (var connection = new SqlConnection(ConnectionString.connectionString))
                 {
-
                     connection.Open();
 
                     var currencies = connection.Query<Currency>(
@@ -106,17 +96,13 @@ namespace DataAccess.Services.Concrete
                                     });
 
                     connection.Close();
-                    return new Result<List<Currency>>(data: currencies.ToList(),
-                                                      message: "İki tarih arasındaki kur değerleri başarıyla getirildi.",
-                                                      success: true
-                                                      );
+                    return new Result<List<Currency>>(data: currencies.ToList(),message: "İki tarih arasındaki kur değerleri başarıyla getirildi.",success: true);
                 }
 
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return new Result<List<Currency>>(
-                    data: null,message: $"Beklenmedik bir hata oluştu. \n Detay: {e.Message}",success: false);
+                return new Result<List<Currency>>(data: null,message: $"Beklenmedik bir hata oluştu.{Environment.NewLine}Detay: {ex.Message}",success: false);
             }
         }
     }

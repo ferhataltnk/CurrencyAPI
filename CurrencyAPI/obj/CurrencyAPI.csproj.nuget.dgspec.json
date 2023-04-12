@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj": {}
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\Business.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj"
               },
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
         "projectName": "CurrencyAPI",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Business\\Business.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Business\\Business.csproj"
               },
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,11 +229,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Core\\Core.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Core\\Core.csproj"
               },
-              "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj"
+              "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -277,14 +277,14 @@
         }
       }
     },
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",

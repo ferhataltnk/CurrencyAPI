@@ -23,61 +23,61 @@ namespace Business.Services.Concrete
             _logger = logger;
         }
 
-        public Result<List<Currency>> GetAllCurrencyBetweenTwoDate(DateTime dateStart,DateTime dateEnd)
+        public Result<List<Currency>> GetCurrenciesBetweenDates(DateTime dateStart,DateTime dateEnd)
         {
             
             try
             {
-                var valueResult = _currencyDal.GetAllCurrencyBetweenTwoDate(dateStart, dateEnd);
+                var valueResult = _currencyDal.GetCurrenciesBetweenDates(dateStart, dateEnd);
                 _logger.LogInformation(valueResult.Message);
                
-                return new Result<List<Currency>>(data: valueResult.Data, message: $"İstenilen tarih aralığındaki kur değerleri başarıyla getirildi. \n Detay:{valueResult.Message}", success:true);
+                return new Result<List<Currency>>(data: valueResult.Data, message: $"İstenilen tarih aralığındaki kur değerleri başarıyla getirildi.{Environment.NewLine}Detay:{valueResult.Message}", success:true);
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _logger.LogError($"{GetType().FullName}.{MethodBase.GetCurrentMethod()?.Name}.Failed.{Environment.NewLine}İki tarih arasındaki kur değerleri getirilirken bir hata oluştu. \n Detay:{e.Message}");
+                _logger.LogError($"{GetType().FullName}.{MethodBase.GetCurrentMethod()?.Name}.Failed.{Environment.NewLine}İki tarih arasındaki kur değerleri getirilirken bir hata oluştu.{Environment.NewLine}Detay:{ex.Message}");
               
-                return new Result<List<Currency>>(data: null, message:$"İki tarih arasındaki kur değerleri getirilirken bir hata oluştu. \n Detay:{ e.Message }",success:false);
+                return new Result<List<Currency>>(data: null, message:$"İki tarih arasındaki kur değerleri getirilirken bir hata oluştu.{Environment.NewLine}Detay:{ ex.Message }",success:false);
                 
             }
             
         }
 
 
-        public Result<Currency> GetCurrenciesByCode(string code)
+        public Result<Currency> GetCurrenciesByCode(string currencyCode)
         {
             try
             {
-                var valueResult = _currencyDal.GetCurrenciesByCode(code);
+                var valueResult = _currencyDal.GetCurrenciesByCode(currencyCode);
                 _logger.LogInformation(valueResult.Message);
-                return new Result<Currency>(data: valueResult.Data, message: $"Belirtilen kur değeri başarıyla getirildi. \n Detay:{valueResult.Message }", success: true);
+                return new Result<Currency>(data: valueResult.Data, message: $"Belirtilen kur değeri başarıyla getirildi.{Environment.NewLine}Detay:{valueResult.Message }", success: true);
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _logger.LogError(e.Message);
-                return new Result<Currency>(data: null, message: $"Belirtilen kur değeri getirilirken bir hata oluştu. \n Detay:{e.Message}", success: false);
+                _logger.LogError(ex.Message);
+                return new Result<Currency>(data: null, message: $"Belirtilen kur değeri getirilirken bir hata oluştu.{Environment.NewLine}Detay:{ex.Message}", success: false);
 
             }
          
         }
 
 
-        public Result<List<Currency>> GetCurrenciesBetweenTwoDate(string currencyCode,DateTime dateStart,DateTime dateEnd)
+        public Result<List<Currency>> GetCurrenciesByCodeAndBetweenDates(string currencyCode,DateTime dateStart,DateTime dateEnd)
         {
            
             try
             {
-                var valueResult = _currencyDal.GetCurrenciesBetweenTwoDate(currencyCode: currencyCode, dateStart: dateStart, dateEnd: dateEnd);
+                var valueResult = _currencyDal.GetCurrenciesByCodeAndBetweenDates(currencyCode: currencyCode, dateStart: dateStart, dateEnd: dateEnd);
                 _logger.LogInformation(valueResult.Message);
-                return new Result<List<Currency>>(data: valueResult.Data, message: $"İstenilen tarih aralığındaki belirtilen kur değeri başarıyla getirildi. \n Detay:{valueResult.Message}", success: true);
+                return new Result<List<Currency>>(data: valueResult.Data, message: $"İstenilen tarih aralığındaki belirtilen kur değeri başarıyla getirildi.{Environment.NewLine}Detay:{valueResult.Message}", success: true);
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _logger.LogError(e.Message);
-                return new Result<List<Currency>>(data: null, message: $"İki tarih arasında belirtilen kur değerleri getirilirken bir hata oluştu. \n Detay:{e.Message}", success: false);
+                _logger.LogError(ex.Message);
+                return new Result<List<Currency>>(data: null, message: $"İki tarih arasında belirtilen kur değerleri getirilirken bir hata oluştu.{Environment.NewLine}Detay:{ex.Message}", success: false);
 
             }
         }

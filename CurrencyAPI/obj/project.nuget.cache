@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kX5A80HWUGrAEHKhvAHk3u04/4/JCj+5a1ckNAmYcCOp0/cuaMjwF5yZfs2bB69fbWjfa6QbgnPpSQaY+oku7w==",
+  "dgSpecHash": "bwlXPoEnjGdEFe8Lmz36Ktmr64ga2pGdNJ53jrVFGgM8iSkUpIzgiGzK+aPAW2mH0Cd2np5R8/0Crdm6Bzf3iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
+  "projectFilePath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STJ79730\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",

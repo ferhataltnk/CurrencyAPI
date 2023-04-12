@@ -4,8 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CurrencyAPI.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("v1/api/currencies")]
     public class CurrencyController : ControllerBase
     {
         private readonly ICurrencyService _currencyService;
@@ -14,31 +13,30 @@ namespace CurrencyAPI.Controllers
         {
             _currencyService = currencyService;
         }
-
-
-        [HttpGet("v1/currency/{code}")]
-        public IActionResult Currency(string code)
+       
+        [HttpGet("{currencyCode}")]
+        public IActionResult Currency(string currencyCode)
         {   
-                var valueResult = _currencyService.GetCurrenciesByCode(code);
-                return valueResult.Success? Ok(valueResult.Data):BadRequest(valueResult.Message);
+                var valueResult = _currencyService.GetCurrenciesByCode(currencyCode);
+                return valueResult.Success? Ok(valueResult):BadRequest(valueResult);
         }
 
 
-        [HttpGet("v1/currency/{dateStart}&{dateEnd}")]
+        [HttpGet("{dateStart}&{dateEnd}")]
         public IActionResult Currency(DateTime dateStart, DateTime dateEnd)
         {
-                var valueResult = _currencyService.GetAllCurrencyBetweenTwoDate(dateStart, dateEnd);
-
-                return valueResult.Success?Ok(valueResult.Data):BadRequest(valueResult.Message);   
+                var valueResult = _currencyService.GetCurrenciesBetweenDates(dateStart, dateEnd);
+            
+                return valueResult.Success?Ok(valueResult):BadRequest(valueResult);   
         }
 
-
-        [HttpGet("v1/currency/{currencyCode}/{dateStart}&{dateEnd}")]
+       
+        [HttpGet("{currencyCode}/{dateStart}&{dateEnd}")]
         public IActionResult Currency(string currencyCode, DateTime dateStart, DateTime dateEnd)
         {
-            var valuesResult = _currencyService.GetCurrenciesBetweenTwoDate(currencyCode:currencyCode,dateStart:dateStart,dateEnd: dateEnd);
+            var valuesResult = _currencyService.GetCurrenciesByCodeAndBetweenDates(currencyCode:currencyCode,dateStart:dateStart,dateEnd: dateEnd);
 
-            return valuesResult.Success ? Ok(valuesResult.Data) : BadRequest(valuesResult.Message);
+            return valuesResult.Success ? Ok(valuesResult) : BadRequest(valuesResult);
 
         }
     }

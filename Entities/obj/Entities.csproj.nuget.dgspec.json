@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj": {}
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj": {
+    "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\STJ79730\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STJ79730\\source\\repos\\CurrencyAPI\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\STJ79730\\AppData\\Roaming\\NuGet\\NuGet.Config",
