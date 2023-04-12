@@ -94,3 +94,13 @@ C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\obj\Debug\net7.0\refint\
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\obj\Debug\net7.0\CurrencyAPI.pdb
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\obj\Debug\net7.0\CurrencyAPI.genruntimeconfig.cache
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\obj\Debug\net7.0\ref\CurrencyAPI.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\CurrencyAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
