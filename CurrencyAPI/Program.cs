@@ -25,8 +25,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<ICurrencyService,CurrencyManager>();
-builder.Services.AddSingleton<ICurrencyDal,DpCurrencyDal>();
+builder.Services.AddSingleton<ICurrencyService, CurrencyManager>();
+builder.Services.AddSingleton<ICurrencyDal, DpCurrencyDal>();
 
 
 

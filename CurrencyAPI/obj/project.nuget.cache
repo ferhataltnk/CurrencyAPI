@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uty+/g5Jq/9aouKeUxZMXvu22uH37OCKvgqnvYxRfepb1nYDFsxMF2npfyK9lPJ6x2h/A9x2EVnmnVqYLteJNg==",
+  "dgSpecHash": "1TTz1YfaQ8TALakJRYpx8Oeg/Ksv689ygMf+/WxLLw088UgAek0X48Fns21R+RudJDLsx5IKK3FXAxwXYuIDAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\STJ79730\\Desktop\\Repos\\CurrencyAPI\\CurrencyAPI\\CurrencyAPI.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.0.0\\microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
@@ -31,7 +32,7 @@
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.extensions.hosting\\5.0.1\\serilog.extensions.hosting.5.0.1.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
-    "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.settings.configuration\\3.4.0\\serilog.settings.configuration.3.4.0.nupkg.sha512",
+    "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\STJ79730\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",

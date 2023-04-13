@@ -22,3 +22,6 @@ C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\obj\Debug\net7.0\Core.dll
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\obj\Debug\net7.0\refint\Core.dll
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\bin\Debug\net7.0\Entities.dll
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\bin\Debug\net7.0\Entities.pdb
+C:\Users\STJ79730\Desktop\Repos\CurrencyAPI\Core\obj\Debug\net7.0\Core.csproj.CopyComplete

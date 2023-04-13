@@ -1,5 +1,5 @@
 ﻿using Business.Services.Abstract;
-using Microsoft.AspNetCore.Http;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CurrencyAPI.Controllers
@@ -13,31 +13,14 @@ namespace CurrencyAPI.Controllers
         {
             _currencyService = currencyService;
         }
-       
-        [HttpGet("{currencyCode}")]
-        public IActionResult Currency(string currencyCode)
-        {   
-                var valueResult = _currencyService.GetCurrenciesByCode(currencyCode);
-                return valueResult.Success? Ok(valueResult):BadRequest(valueResult);
-        }
 
 
-        [HttpGet("{dateStart}&{dateEnd}")]
-        public IActionResult Currency(DateTime dateStart, DateTime dateEnd)
+        [HttpGet]
+        public IActionResult Get(CurrencyRequestModel currencyRequestModel)
         {
-                var valueResult = _currencyService.GetCurrenciesBetweenDates(dateStart, dateEnd);
-            
-                return valueResult.Success?Ok(valueResult):BadRequest(valueResult);   
+            var valueResult = _currencyService.GetAsync(currencyRequestModel);
+            return valueResult.Result.Success ? Ok(valueResult) : BadRequest(valueResult.Result.Message);
         }
 
-       
-        [HttpGet("{currencyCode}/{dateStart}&{dateEnd}")]
-        public IActionResult Currency(string currencyCode, DateTime dateStart, DateTime dateEnd)
-        {
-            var valuesResult = _currencyService.GetCurrenciesByCodeAndBetweenDates(currencyCode:currencyCode,dateStart:dateStart,dateEnd: dateEnd);
-
-            return valuesResult.Success ? Ok(valuesResult) : BadRequest(valuesResult);
-
-        }
     }
 }

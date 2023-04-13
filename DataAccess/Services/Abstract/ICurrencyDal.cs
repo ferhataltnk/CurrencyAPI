@@ -1,18 +1,13 @@
 ﻿using Core.Utilities.Results;
 using Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess.Services.Abstract
 {
     public interface ICurrencyDal
     {
-        public Result<Currency> GetCurrenciesByCode(string code);
-        public Result<List<Currency>> GetCurrenciesByCodeAndBetweenDates(string currencyCode,DateTime dateStart,DateTime dateEnd);
-        public Result<List<Currency>> GetCurrenciesBetweenDates(DateTime dateStart,DateTime dateEnd);
+        public Result<List<Currency>> GetCurrenciesByCode(CurrencyRequestModel currencyRequestModel);
+        public Result<List<Currency>> GetCurrenciesByCodeAndBetweenDates(CurrencyRequestModel currencyRequestModel);
+        public Result<List<Currency>> GetCurrenciesBetweenDates(CurrencyRequestModel currencyRequestModel);
 
 
     }
